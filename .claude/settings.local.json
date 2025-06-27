@@ -4,8 +4,11 @@
       "Bash(ls:*)",
       "Bash(mkdir:*)",
       "Bash(rm:*)",
-      "Bash(timeout 5s npm run dev)",
-      "Bash(git branch:*)"
+      "Bash(git branch:*)",
+      "Bash(timeout * npm run dev)",
+      "Bash(npm run build:*)",
+      "Bash(curl:*)",
+      "Bash(npm install:*)"
     ],
     "deny": []
   }

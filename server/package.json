@@ -1,10 +1,11 @@
 {
-  "name": "conexiom-poker-server",
+  "name": "planning-poker-server",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "tsx watch src/index.ts",
+    "dev:server": "npx kill-port 3001 && npm run dev",
     "build": "tsc",
     "start": "node dist/index.js"
   },

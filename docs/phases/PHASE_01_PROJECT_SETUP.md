@@ -58,7 +58,7 @@ Set up the foundational project structure, development tools, and configuration 
 ### Root package.json
 ```json
 {
-  "name": "conexiom-poker",
+  "name": "planning-poker",
   "private": true,
   "workspaces": ["client", "server"],
   "scripts": {

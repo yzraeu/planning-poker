@@ -22,52 +22,55 @@ Real-time online planning poker website for agile teams to conduct estimation se
 
 ## Phase Breakdown
 
-### Foundation (Phases 1-6) - 6 hours
+### Foundation (Phases 1-2, 5-8) - 6 hours
 - **Phase 1**: Project Setup & Tooling
 - **Phase 2**: Backend Foundation (Express + Socket.io)
-- **Phase 3**: Database Schema & Models
-- **Phase 4**: Room Management System
-- **Phase 5**: User Management & Avatars
-- **Phase 6**: Voting Backend Logic
+- **Phase 3**: Deployment Configuration (Early DevOps)
+- **Phase 4**: CI/CD Pipeline (Early DevOps)
+- **Phase 5**: Database Schema & Models
+- **Phase 6**: Room Management System
+- **Phase 7**: User Management & Avatars
+- **Phase 8**: Voting Backend Logic
 
-### Frontend Development (Phases 7-12) - 6 hours
-- **Phase 7**: Frontend Foundation (React + Vite)
-- **Phase 8**: Room UI Components
-- **Phase 9**: Voting Interface
-- **Phase 10**: Real-time Integration
-- **Phase 11**: Sound & Animation Features
-- **Phase 12**: Responsive Design
+### Frontend Development (Phases 9-14) - 6 hours
+- **Phase 9**: Frontend Foundation (React + Vite)
+- **Phase 10**: Room UI Components
+- **Phase 11**: Voting Interface
+- **Phase 12**: Real-time Integration
+- **Phase 13**: Sound & Animation Features
+- **Phase 14**: Responsive Design
 
-### Deployment & Polish (Phases 13-15) - 3 hours
-- **Phase 13**: Deployment Configuration
-- **Phase 14**: CI/CD Pipeline
+### Final Polish (Phase 15) - 1 hour
 - **Phase 15**: Testing & Final Polish
 
 ## Key Features Delivery Schedule
 
-### Hour 4 - Basic Room Creation
+### Hour 4 - DevOps Ready
+- Deployment pipeline configured
+- CI/CD automation in place
+
+### Hour 6 - Basic Room Creation
 - Users can create rooms with unique URLs
 - Rooms persist indefinitely
 
-### Hour 6 - Basic Voting Backend
+### Hour 8 - Basic Voting Backend
 - Vote storage and retrieval
 - Session management
 
-### Hour 9 - Basic UI Complete
+### Hour 11 - Basic UI Complete
 - Room creation/joining interface
 - Voting cards display
 
-### Hour 10 - Real-time Features
+### Hour 12 - Real-time Features
 - Live vote updates
 - User presence indicators
 
-### Hour 12 - Full Feature Set
+### Hour 14 - Full Feature Set
 - Sound notifications
 - Confetti animations
 - Mobile responsive
 
 ### Hour 15 - Production Ready
-- Deployed with CI/CD
 - Fully tested and polished
 
 ## Success Metrics

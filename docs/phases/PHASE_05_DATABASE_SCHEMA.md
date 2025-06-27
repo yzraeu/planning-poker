@@ -4,8 +4,7 @@
 Set up SQLite database with proper schema design for rooms, users, votes, and sessions. Create TypeScript models and database utilities.
 
 ## Prerequisites
-- Phase 1 completed (project structure)
-- Phase 2 completed (Express server setup)
+- Phase 4 completed (CI/CD pipeline)
 - Understanding of relational database design
 
 ## Estimated Time
@@ -210,7 +209,7 @@ console.log('User:', user);
 ```
 
 ## Next Steps
-After completion, proceed to **Phase 4: Room Management System** to implement room creation, joining, and persistence logic.
+After completion, proceed to **Phase 6: Room Management System** to implement room creation, joining, and persistence logic.
 
 ## Time Tracking
 - Start Time: ___________
@@ -219,5 +218,5 @@ After completion, proceed to **Phase 4: Room Management System** to implement ro
 - Notes: ___________
 
 ## Dependencies
-- **Blocks**: Phase 4 (Room Management), Phase 5 (User Management), Phase 6 (Voting Logic)
-- **Blocked by**: Phase 2 (Backend Foundation)
+- **Blocks**: Phase 6 (Room Management), Phase 7 (User Management), Phase 8 (Voting Logic)
+- **Blocked by**: Phase 4 (CI/CD Pipeline)

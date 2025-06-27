@@ -4,8 +4,8 @@
 Set up Socket.io client, implement real-time vote updates, user presence updates, and session state synchronization.
 
 ## Prerequisites
-- Phase 9 completed (voting interface)
-- Phase 6 completed (voting backend)
+- Phase 11 completed (voting interface)
+- Phase 8 completed (voting backend)
 - Understanding of Socket.io client-side integration
 
 ## Estimated Time
@@ -532,7 +532,7 @@ export default Room
 - [ ] Reconnection works after network issues
 
 ## Next Steps
-After completion, proceed to **Phase 11: Sound & Animation Features** to enhance the user experience.
+After completion, proceed to **Phase 13: Sound & Animation Features** to enhance the user experience.
 
 ## Time Tracking
 - Start Time: ___________
@@ -541,5 +541,5 @@ After completion, proceed to **Phase 11: Sound & Animation Features** to enhance
 - Notes: ___________
 
 ## Dependencies
-- **Blocks**: Phase 11 (Sound & Animations)
-- **Blocked by**: Phase 9 (Voting UI), Phase 6 (Voting Backend)
+- **Blocks**: Phase 13 (Sound & Animations)
+- **Blocked by**: Phase 11 (Voting UI), Phase 8 (Voting Backend)

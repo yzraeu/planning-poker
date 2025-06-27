@@ -4,7 +4,7 @@
 Implement user joining/leaving handlers, avatar generation system, name change functionality, and user presence tracking.
 
 ## Prerequisites
-- Phase 4 completed (room management)
+- Phase 6 completed (room management)
 - Understanding of Socket.io event handling and user sessions
 
 ## Estimated Time
@@ -246,7 +246,7 @@ export default router;
 - [ ] User presence status updates correctly
 
 ## Next Steps
-After completion, proceed to **Phase 6: Voting Backend Logic** to implement vote storage, retrieval, and session management.
+After completion, proceed to **Phase 8: Voting Backend Logic** to implement vote storage, retrieval, and session management.
 
 ## Time Tracking
 - Start Time: ___________
@@ -255,5 +255,5 @@ After completion, proceed to **Phase 6: Voting Backend Logic** to implement vote
 - Notes: ___________
 
 ## Dependencies
-- **Blocks**: Phase 6 (Voting Logic), Phase 10 (Real-time Integration)
-- **Blocked by**: Phase 4 (Room Management)
+- **Blocks**: Phase 8 (Voting Logic), Phase 12 (Real-time Integration)
+- **Blocked by**: Phase 6 (Room Management)

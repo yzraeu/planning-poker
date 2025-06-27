@@ -4,7 +4,7 @@
 Set up Vercel configuration, configure environment variables, set up production database, and optimize build settings.
 
 ## Prerequisites
-- Phase 12 completed (responsive design)
+- Phase 2 completed (backend foundation)
 - Vercel account created
 - Production database access (PostgreSQL recommended)
 
@@ -399,7 +399,7 @@ echo "Build completed successfully!"
 - [ ] Static assets are served correctly
 
 ## Next Steps
-After completion, proceed to **Phase 14: CI/CD Pipeline** to automate testing and deployment.
+After completion, proceed to **Phase 4: CI/CD Pipeline** to automate testing and deployment.
 
 ## Time Tracking
 - Start Time: ___________
@@ -408,5 +408,5 @@ After completion, proceed to **Phase 14: CI/CD Pipeline** to automate testing an
 - Notes: ___________
 
 ## Dependencies
-- **Blocks**: Phase 14 (CI/CD Pipeline)
-- **Blocked by**: Phase 12 (Responsive Design)
+- **Blocks**: Phase 4 (CI/CD Pipeline)
+- **Blocked by**: Phase 2 (Backend Foundation)

@@ -4,7 +4,7 @@
 Set up GitHub Actions workflow, implement automated testing, configure deployment automation, and manage environment secrets.
 
 ## Prerequisites
-- Phase 13 completed (deployment configuration)
+- Phase 3 completed (deployment configuration)
 - GitHub repository set up
 - Vercel account connected to GitHub
 
@@ -477,7 +477,7 @@ CODECOV_TOKEN=<optional-codecov-token>
 - [ ] Status badges update correctly
 
 ## Next Steps
-After completion, proceed to **Phase 15: Testing & Final Polish** for comprehensive testing and final optimizations.
+After completion, proceed to **Phase 5: Database Schema & Models** to implement the data layer.
 
 ## Time Tracking
 - Start Time: ___________
@@ -486,5 +486,5 @@ After completion, proceed to **Phase 15: Testing & Final Polish** for comprehens
 - Notes: ___________
 
 ## Dependencies
-- **Blocks**: Phase 15 (Testing & Polish)
-- **Blocked by**: Phase 13 (Deployment Configuration)
+- **Blocks**: Phase 5 (Database Schema & Models)
+- **Blocked by**: Phase 3 (Deployment Configuration)

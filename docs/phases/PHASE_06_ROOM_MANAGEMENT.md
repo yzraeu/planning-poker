@@ -4,7 +4,7 @@
 Implement room creation, unique URL generation, room persistence, and joining functionality with proper error handling.
 
 ## Prerequisites
-- Phase 3 completed (database schema and models)
+- Phase 5 completed (database schema and models)
 - Understanding of UUID generation and URL routing
 
 ## Estimated Time
@@ -191,7 +191,7 @@ export function handleRoomJoin(socket: Socket) {
 - [ ] Multiple users can join same room
 
 ## Next Steps
-After completion, proceed to **Phase 5: User Management & Avatars** to implement user joining, avatar generation, and presence tracking.
+After completion, proceed to **Phase 7: User Management & Avatars** to implement user joining, avatar generation, and presence tracking.
 
 ## Time Tracking
 - Start Time: ___________
@@ -200,5 +200,5 @@ After completion, proceed to **Phase 5: User Management & Avatars** to implement
 - Notes: ___________
 
 ## Dependencies
-- **Blocks**: Phase 5 (User Management), Phase 8 (Room UI)
-- **Blocked by**: Phase 3 (Database Schema)
+- **Blocks**: Phase 7 (User Management), Phase 8 (Room UI)
+- **Blocked by**: Phase 5 (Database Schema)

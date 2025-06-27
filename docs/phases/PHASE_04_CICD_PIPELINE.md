@@ -1,4 +1,4 @@
-# Phase 14: CI/CD Pipeline
+# Phase 4: CI/CD Pipeline
 
 ## Objective
 Set up GitHub Actions workflow, implement automated testing, configure deployment automation, and manage environment secrets.

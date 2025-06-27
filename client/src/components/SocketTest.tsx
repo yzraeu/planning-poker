@@ -116,7 +116,7 @@ const SocketTest: React.FC = () => {
         </div>
         
         <div className="bg-white rounded-lg shadow-lg">
-          <h3 className="text-xl font-semibold p-4 border-b border-gray-200">Connection Log:</h3>
+          <h3 className="text-xl font-semibold p-4 border-b border-gray-200">Connection:</h3>
           <div 
             ref={logContainerRef}
             className="p-4 h-96 overflow-y-auto bg-gray-50 font-mono text-sm"

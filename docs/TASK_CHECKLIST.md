@@ -12,7 +12,7 @@
 
 ---
 
-## Foundation Phases (2/6 completed)
+## Foundation Phases (2/8 completed)
 
 ### ✅ Phase 1: Project Setup & Tooling
 **Estimated Time**: 1 hour  
@@ -32,7 +32,25 @@
 - [x] Set up basic routing
 - [x] Test real-time connection
 
-### ❌ Phase 3: Database Schema & Models
+### ❌ Phase 3: Deployment Configuration
+**Estimated Time**: 1 hour  
+**Status**: Not Started  
+**Progress**: 0/4 tasks completed
+- [ ] Vercel configuration
+- [ ] Environment variables setup
+- [ ] Production database config
+- [ ] Build optimization
+
+### ❌ Phase 4: CI/CD Pipeline
+**Estimated Time**: 1 hour  
+**Status**: Not Started  
+**Progress**: 0/4 tasks completed
+- [ ] GitHub Actions workflow
+- [ ] Automated testing setup
+- [ ] Deployment automation
+- [ ] Environment secrets
+
+### ❌ Phase 5: Database Schema & Models
 **Estimated Time**: 1 hour  
 **Status**: Not Started  
 **Progress**: 0/4 tasks completed
@@ -41,7 +59,7 @@
 - [ ] Create user schema
 - [ ] Create vote schema
 
-### ❌ Phase 4: Room Management System
+### ❌ Phase 6: Room Management System
 **Estimated Time**: 1 hour  
 **Status**: Not Started  
 **Progress**: 0/4 tasks completed
@@ -50,7 +68,7 @@
 - [ ] Room persistence logic
 - [ ] Room joining functionality
 
-### ❌ Phase 5: User Management & Avatars
+### ❌ Phase 7: User Management & Avatars
 **Estimated Time**: 1 hour  
 **Status**: Not Started  
 **Progress**: 0/4 tasks completed
@@ -59,7 +77,7 @@
 - [ ] Name change functionality
 - [ ] User presence tracking
 
-### ❌ Phase 6: Voting Backend Logic
+### ❌ Phase 8: Voting Backend Logic
 **Estimated Time**: 1 hour  
 **Status**: Not Started  
 **Progress**: 0/4 tasks completed
@@ -72,7 +90,7 @@
 
 ## Frontend Phases (0/6 completed)
 
-### ❌ Phase 7: Frontend Foundation
+### ❌ Phase 9: Frontend Foundation
 **Estimated Time**: 1 hour  
 **Status**: Not Started  
 **Progress**: 0/4 tasks completed
@@ -81,7 +99,7 @@
 - [ ] Set up routing
 - [ ] Create basic layout
 
-### ❌ Phase 8: Room UI Components
+### ❌ Phase 10: Room UI Components
 **Estimated Time**: 1 hour  
 **Status**: Not Started  
 **Progress**: 0/4 tasks completed
@@ -90,7 +108,7 @@
 - [ ] URL sharing component
 - [ ] Room info display
 
-### ❌ Phase 9: Voting Interface
+### ❌ Phase 11: Voting Interface
 **Estimated Time**: 1 hour  
 **Status**: Not Started  
 **Progress**: 0/5 tasks completed
@@ -100,7 +118,7 @@
 - [ ] Reveal/New session buttons
 - [ ] Vote display components
 
-### ❌ Phase 10: Real-time Integration
+### ❌ Phase 12: Real-time Integration
 **Estimated Time**: 1 hour  
 **Status**: Not Started  
 **Progress**: 0/4 tasks completed
@@ -109,7 +127,7 @@
 - [ ] User presence updates
 - [ ] Session state synchronization
 
-### ❌ Phase 11: Sound & Animation Features
+### ❌ Phase 13: Sound & Animation Features
 **Estimated Time**: 1 hour  
 **Status**: Not Started  
 **Progress**: 0/4 tasks completed
@@ -118,7 +136,7 @@
 - [ ] Confetti animation setup
 - [ ] Unanimous vote detection
 
-### ❌ Phase 12: Responsive Design
+### ❌ Phase 14: Responsive Design
 **Estimated Time**: 1 hour  
 **Status**: Not Started  
 **Progress**: 0/4 tasks completed
@@ -129,25 +147,7 @@
 
 ---
 
-## Deployment Phases (0/3 completed)
-
-### ❌ Phase 13: Deployment Configuration
-**Estimated Time**: 1 hour  
-**Status**: Not Started  
-**Progress**: 0/4 tasks completed
-- [ ] Vercel configuration
-- [ ] Environment variables setup
-- [ ] Production database config
-- [ ] Build optimization
-
-### ❌ Phase 14: CI/CD Pipeline
-**Estimated Time**: 1 hour  
-**Status**: Not Started  
-**Progress**: 0/4 tasks completed
-- [ ] GitHub Actions workflow
-- [ ] Automated testing setup
-- [ ] Deployment automation
-- [ ] Environment secrets
+## Deployment Phases (0/1 completed)
 
 ### ❌ Phase 15: Testing & Final Polish
 **Estimated Time**: 1 hour  
@@ -164,14 +164,16 @@
 
 ### Critical Path Dependencies
 1. **Phase 1** → Phase 2 (Backend setup requires project structure)
-2. **Phase 3** → Phase 4,5,6 (Database required for room/user/vote logic)
-3. **Phase 7** → Phase 8,9 (Frontend foundation required for UI)
-4. **Phase 10** requires Phase 2,6 (Real-time needs backend sockets + voting)
-5. **Phase 13,14** require all previous phases
+2. **Phase 3,4** can be done early for DevOps setup
+3. **Phase 5** → Phase 6,7,8 (Database required for room/user/vote logic)
+4. **Phase 9** → Phase 10,11 (Frontend foundation required for UI)
+5. **Phase 12** requires Phase 2,8 (Real-time needs backend sockets + voting)
+6. **Phase 15** requires all previous phases
 
 ### Key Milestones
-- **End of Phase 6**: Backend functionality complete
-- **End of Phase 12**: Full application ready for deployment
+- **End of Phase 4**: DevOps pipeline ready
+- **End of Phase 8**: Backend functionality complete
+- **End of Phase 14**: Full application ready for deployment
 - **End of Phase 15**: Production-ready application
 
 ## Notes & Blockers

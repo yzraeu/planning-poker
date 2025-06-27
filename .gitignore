@@ -17,12 +17,35 @@ out/
 # Vite
 .vite/
 
-# Environment variables
+# Environment variables - Security Critical
 .env
+.env.*
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
+.env.development
+.env.production
+.env.staging
+
+# Security files
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+*.der
+id_rsa*
+id_ed25519*
+*.ppk
+.ssh/
+
+# API Keys and secrets
+secrets.json
+config/secrets.*
+.secrets
+.env.secrets
 
 # IDE
 .vscode/
@@ -48,13 +71,25 @@ pids
 coverage/
 *.lcov
 
-# Database files
+# Database files - Security Critical
 *.db
 *.sqlite
 *.sqlite3
+*.mdb
+*.accdb
 database/*.db
 database/*.sqlite
 database/*.sqlite3
+server/database/*.db
+server/database/*.sqlite
+server/database/*.sqlite3
+
+# Database backups and dumps
+*.sql.backup
+*.sql.gz
+*.dump
+dump.rdb
+*.bak
 
 # TypeScript
 *.tsbuildinfo
@@ -82,6 +117,22 @@ temp/
 # Deployment platforms
 .vercel/
 .netlify/
+.railway/
+.fly/
+
+# Cloud provider configs
+.aws/
+.gcp/
+.azure/
+
+# Docker secrets
+docker-compose.override.yml
+docker-compose.prod.yml
+.dockerignore.local
+
+# Kubernetes secrets
+*.kubeconfig
+k8s-secrets/
 
 # Storybook build outputs
 storybook-static
@@ -95,3 +146,32 @@ storybook-static
 # Vite timestamp files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Security scanning and audit files
+.snyk
+security-audit.json
+vulnerability-report.*
+
+# Testing sensitive data
+test-data/
+fixtures/sensitive/
+__tests__/fixtures/secrets/
+
+# Monitoring and analytics
+.sentry/
+analytics-config.json
+
+# Backup files that might contain sensitive data
+*.backup
+*.old
+*.orig
+*.save
+*~
+
+# MacOS security
+.keychain_db
+.keychain_db-*
+
+# Windows security
+ntuser.dat*
+NTUSER.DAT*
